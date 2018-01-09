@@ -1,0 +1,44 @@
+body {
+  background: url("../Images/bg/fondo.jpg") no-repeat left top;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 15px;
+}
+.contenido {
+  background: rgba(0, 0, 0, 0.5);
+}
+.logo {
+  display: block;
+  float: left;
+  width: 110px;
+  margin-top: -10px;
+  margin-right: 20px;
+}
+.img-fav {
+  margin: 5px 0px;
+  width: 200px;
+}
+textarea{
+  resize: none;
+}
+.callout{
+  opacity: 0.9;
+}
+.user {
+  border-radius: 50px;
+}
+.comment {
+  border-radius: 8px;
+}
+@media (max-width: 575px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .logo {
+    margin-top: -10px !important;
+  }
+
+}
