@@ -1,0 +1,196 @@
+/* General Classes
+=================================================== */
+a,a:visited {
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+}
+
+.clearfix:after{
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+html, body {
+	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+/* Body
+===================================================*/
+body {
+	background-color: #FFFFFF;
+	color: #506C7A;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* header
+===================================================*/
+.header {
+  min-height: 200px;
+  background: #FFCC80;
+}
+.header .logo {
+  width: 200px;
+  display: block;
+  float: left;
+  margin-left: 25px;
+}
+.header .social-media {
+  display: block;
+  float: right;
+  font-size: 35px;
+  margin-top: 120px;
+  margin-right: 25px;
+}
+.header .social-media a:hover {
+  text-decoration: none;
+}
+
+/* Nav
+===================================================*/
+nav {
+  min-height: 70px;
+  background: #D5D8DC;
+	border-radius: 0px 0px 5px 5px;
+}
+nav a{
+  background: #FFB74D;
+  border-radius: 10px;
+  color: black;
+  display: block;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 8px 0px;
+
+}
+nav a:hover{
+  text-decoration: none;
+  background: #FFCC80;
+}
+/* Contenido
+===================================================*/
+.contenido {
+  min-height: 970px;
+  background: #EAECEE;
+  margin-top: 5px;
+  border-radius: 5px 5px 0px 0px;;
+}
+.contenido .noticias {
+  border-right: 1px dashed gray;
+}
+.contenido .noticias .solomun-new {
+  padding: 10px 40px;
+}
+.contenido .noticias .solomun {
+  margin: 25px 20px 10px 0px;
+  width: 250px;
+  float: left;
+}
+.contenido .noticias .solomun-mobile {
+  display: none;
+}
+textarea {
+  resize: none;
+  margin: 15px 0px 10px 0px;
+}
+button {
+  float: right;
+}
+.contenido .noticias .lumen-new {
+  padding: 10px 40px;
+}
+.contenido .noticias .lumen {
+  margin: 25px 0px 10px 20px;
+  width: 250px;
+  float: right;
+}
+.contenido .noticias .lumen-mobile {
+  display: none;
+}
+.contenido .barra .busqueda {
+  margin-top: 15px;
+}
+.contenido .barra li {
+  padding: 5px 0px;
+  border-top: 1px dashed gray;
+}
+.contenido .barra a {
+  color: #506C7A;
+}
+.contenido .barra a:hover {
+  text-decoration: none;
+}
+
+/* Visualizacion en tabletas
+===================================================*/
+@media  (max-width: 1199px) {
+	.contenido .barra li {
+	  padding: 8px 0px 9px 0px;
+	}
+}
+
+@media (max-width: 991px) {
+	.contenido .noticias {
+		border-right: none;
+	}
+}
+
+/* Visualizacion en celulares
+===================================================*/
+@media (max-width: 575px) {
+	.header .logo {
+		float: none;
+		margin: auto;
+		width: 180px;
+	}
+	.header .social-media {
+		float: none;
+		text-align: center;
+	  font-size: 30px;
+	  margin-top: 20px;
+		margin-right: 0px;
+	}
+	nav a{
+	  font-size: 15px;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+	  text-align: center;
+	}
+	.contenido .noticias h1{
+	  text-align: center;
+	}
+	.contenido .noticias .solomun {
+	  display: none;
+	}
+	.contenido .noticias .solomun-mobile {
+	  display: block;
+		width: 220px;
+		margin: auto;
+		margin-bottom: 10px;
+		}
+	.contenido .noticias .lumen-new {
+		 border-top: 1px dashed gray;
+	}
+	.contenido .noticias .lumen {
+	 	display: none;
+	}
+	.contenido .noticias .lumen-mobile {
+		display: block;
+		width: 220px;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.contenido .barra .busqueda {
+	  margin-top: 25px;
+	}
+}
