@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen, projection">
+    <link href="css/global.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col s12 barra-superior lime lighten-2 nav">
+        <div class="row">
+          <div class="col l3 m4 s5">
+            <a href="#"><img src="Images/misc/logo.png" alt="Logo" class="logo"></a>
+          </div>
+          <div class="col l9 m8 s7">
+            <ul id="nav-mobile" class="right menu-principal">
+              <li><a href="#" class="btn btn-small waves-effect">Inicio</a></li>
+              <li><a href="#" class="btn btn-small waves-effect">Galeria</a></li>
+              <li><a href="#" class="btn btn-small waves-effect">Consejos</a></li>
+              <li><a href="#" class="btn btn-small waves-effect">Articulos</a></li>
+              <li><a href="#" class="btn btn-small waves-effect">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="contenido">
+        <div class="col l9 offset-l3 m8 offset-m4 s12 slogan">
+          <h4>Un viaje, una historia que contar</h4>
+        </div>
+        <div class="col m1 hide-on-small-only barra-redes">
+          <ul>
+            <li><a href="#"><span class="icon-pinterest-square"></span></a></li>
+            <li><a href="#"><span class="icon-flickr"></span></a></li>
+            <li><a href="#"><span class="icon-tumblr-square"></span></a></li>
+            <li><a href="#"><span class="icon-twitter-square"></span></a></li>
+            <li><a href="#"><span class="icon-instagram"></span></a></li>
+            <li><a href="#"><span class="icon-facebook-square"></span></a></li>
+            <li> <a href="#"><span class="icon-youtube-square"></span></a> </li>
+          </ul>
+        </div>
+        <div class="col s12 m11">
+          <div class="col l4 s12">
+            <img src="Images/misc/foto1.png" class="foto">
+            <img src="Images/misc/foto2.png" class="foto">
+          </div>
+          <div class="col l4 s12">
+            <img src="Images/misc/foto3.jpg" class="foto">
+          </div>
+          <div class="col l4 s12">
+            <img src="Images/misc/foto4.png" class="foto">
+            <img src="Images/misc/foto5.png" class="foto">
+          </div>
+        </div>
+        <div class="col m8 s12 ">
+          <div class="col s12 contenedor-noticia hoverable">
+            <h3>Cayo de Agua, Los Roques</h3>
+            <blockquote>Publicado: 2 Enero 2018</blockquote>
+            <img src="Images/misc/playa.png" alt="Cayo de agua" class="foto">
+            <p>
+              Al norte de Venezuela, en el Parque Nacional Los Roques, sobre el mar Caribe. Consiste en una gran extensión de aguas tranquilas y celestes resplandescientes, lagunas, cayos y playas de origen coralino. Allí se encuentra este cayo desierto con aguas cristalinas y es un lugar soñado para los amantes del buceo, el windsurf y la pesca.<br><br>
+              La mayoría de los turistas llega a Los Roques en avión: la pista de aterrizaje del Gran Roque no es larga, por lo que no llegan aviones de gran tamaño y los horarios de los vuelos son diurnos, con una duración aproximada de 25 minutos. También se puede ir en yate, casi siempre privados y pueden ser alquilados para la travesía, que dura entre 4 y 6 horas, dependiendo de las condiciones del mar (resulta bastante movido en el trayecto desde La Guaira, cerca de Caracas, y el Gran Roque).
+            </p>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="col s12 contenedor-perfil hoverable">
+            <img src="Images/misc/autor.jpg" alt="Nicolas" class="circle foto-autor responsive-img">
+            <h5 class="center-align">Perfil del Autor</h5>
+            <hr>
+            <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="col s12 contenedor-comentario hoverable">
+            <h5 class="center-align">Deja tu comentario</h5>
+            <br>
+            <div class="input-field col s6">
+              <input type="text" class="validate" id="nombre">
+              <label for="nombre" data-success="Correcto" data-error="Debes completar este campo">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <input type="email" class="validate" id="email">
+              <label for="email" data-success="Correcto" data-error="Debes completar este campo">email</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea class="materialize-textarea" id="texto"></textarea>
+              <label for="texto" data-success="Correcto" data-error="Debes completar este campo">Comentario</label>
+            </div>
+            <div class="input-field col s12">
+              <input type="submit" value="Enviar" class="btn enviar center-align">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
